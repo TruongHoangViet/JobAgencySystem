@@ -1,0 +1,6 @@
+P1222	New Job	"New job, nothing in particular"	27/06/22	Full-time	On-going	Post	Australian Capital Territory
+P1225	It Sec Junior	"it junior"	27/06/22	Part-time	On-going	Post	Queensland
+P1245	New It Sec	"neeeewww"	27/06/22	Part-time	Fixedterm	Post	Northern Territory
+P0005	Newbie It	"vvvvvv"	27/06/22	Part-time	Fixedterm	Mail	Northern Territory
+P1277	General	"vajajajja"	27/06/22	Part-time	On-going	Post	Queensland
+P1282	Junior It	"vavavav"	27/06/22	Part-time	On-going	Post	Queensland

@@ -1,0 +1,171 @@
+:root {
+    --Color_Background: #00BFFF;
+    --Color_Font: white;
+    --Color_Button: #db966f;
+}
+
+h1 {
+    margin: 64px 22% 10px 24%;
+    color: white;
+    font-family: 'Papyrus', Papyrus, monospace;
+    text-align: center;
+}
+
+body{
+  height: 100%;
+  background-image: url('Background.png');
+  background-size: 100%;
+  background-color: rgb(198, 161, 116);
+  background-attachment: fixed;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.content {
+    color: var(--Color_Font);
+    background-color: rgb(204, 102, 0);
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    margin: 0px 22% 0% 23%;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+}
+
+.content .display{
+  text-align: left;
+}
+
+table, tr, th, td{
+  color: var(--Color_Font);
+  text-align: left;
+  padding: 3px;
+}
+
+.buttOn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.7;
+  transition: 0.1s;
+  outline: none;
+  color: #fff;
+  background-color: #db966f;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px #999;
+  cursor: pointer;
+}
+
+.buttOn:hover {opacity: 1}
+
+.buttOn:active {
+  background-color: #e67d41;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+input[type=text] {
+  width: 85%;
+  padding: 8px 15px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 2px solid rgb(118, 82, 54);
+}
+
+/*Used in postjobform.php*/
+
+form{
+  text-align: left;
+  margin: 0px 15px;
+}
+
+form input[type='text'], 
+form input[type='date'],
+form input[type='checkbox'], 
+form input[type='radio'],
+form select, form textarea{
+    margin-left: 20px;
+}
+
+form td{
+  padding: 0px 28px;
+}
+
+/*Used in searchjobprocess.php*/
+.result{
+  padding: 5px 10px 7px 10px;
+  text-align: left;
+}
+
+.result .title{
+  font-size: 2em;
+}
+
+.searchJob{
+  padding: 0px 2%;
+}
+
+/*Used for Error*/
+.errorBox ul, .errorBox h4{
+  text-align: left;
+  margin-left: 12px;
+}
+
+/*Used in Footer*/
+
+.navButtons{
+  margin: 2px 22% 14% 23%;
+  text-align: center;
+}
+
+.navButtons a, .button, .navButtons a:active {
+  display: inline-block;
+  width: 12%;
+  margin: 8px 12px;
+  padding: 8px;
+  background: var(--Color_Button);
+  border: 2px solid rgb(97, 66, 45);
+  border-radius: 7px;
+  transition: all 0.3s;
+  color:ghostwhite;
+  text-decoration: none;
+}
+
+.navButtons a:hover {
+  color: rgb(97, 66, 45);
+  border: 2px solid blue;
+}
+
+.navButtons a:first-child{
+  float: left;
+  width: 20%;
+}
+
+.navButtons a:nth-child(2){
+  width: 20%;
+}
+
+.navButtons a:last-child{
+  float: right;
+  width: 20%;
+}
+
+
+.notice{
+  color: rgb(34, 170, 34);
+  text-decoration: overline;
+}
+
+img{
+  width: 100%;
+}
