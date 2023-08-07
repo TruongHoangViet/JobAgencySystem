@@ -17,6 +17,6 @@
         </tr>
     </table>
     <p>
-        Check againnn2!
+        Check againnn3!
     </p>
 <?php include("style/footer.php"); ?>
