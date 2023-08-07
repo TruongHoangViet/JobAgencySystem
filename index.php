@@ -17,6 +17,6 @@
         </tr>
     </table>
     <p>
-        Check Chaxxxxx!
+        Check againnnn!
     </p>
 <?php include("style/footer.php"); ?>
