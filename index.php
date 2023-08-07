@@ -17,6 +17,6 @@
         </tr>
     </table>
     <p>
-        Check Changes2!
+        Check Changes2 agian!
     </p>
 <?php include("style/footer.php"); ?>
