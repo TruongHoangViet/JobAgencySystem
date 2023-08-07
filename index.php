@@ -17,6 +17,6 @@
         </tr>
     </table>
     <p>
-        I declare that this assignment is my individual work. I have not worked collaboratively nor have I copied from any other student's work or from any other source
+        Check Changes!
     </p>
 <?php include("style/footer.php"); ?>
